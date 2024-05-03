@@ -1,6 +1,6 @@
-Dangerous Farm Insects Classifier
+#Dangerous Farm Insects Classifier
 
-Overview
+#Overview
 
 This project is developed as a part of COMP 263 at Centennial College. It focuses on utilizing deep learning to classify dangerous agricultural insects using a limited dataset. We've implemented various models including Convolutional Neural Networks (CNNs), Conditional Generative Adversarial Networks (cGANs) for data augmentation, and transfer learning with the InceptionResNetV2 architecture. Our goal is to enhance the accuracy and generalization of insect classification, which is vital for effective agricultural management.
 
@@ -8,7 +8,7 @@ Dataset
 
 The dataset used in this project, known as the Dangerous Farm Insects Image Dataset, consists of 1591 high-quality images categorized into 15 classes of harmful agricultural insects. These images are primarily in RGB format, with an average resolution of 758x1015 pixels.
 
-Models
+#Models
 
 Model 1: CNN
 Architecture: Uses a sequential CNN layout with layers of convolution, max-pooling, and dense layers, integrated with L2 regularization and dropout to counteract overfitting.
@@ -24,7 +24,10 @@ CNN Only: Attained a training accuracy of approximately 70.9%, with a test accur
 CNN with cGAN Augmentation: Test accuracy improved to approximately 42.7%.
 InceptionResNetV2 Transfer Learning: Showed a significant enhancement with a test accuracy of approximately 79%.
 
-Installation
+#Installation
+
+
+
 git clone https://github.com/your-github-username/your-repository-name
 cd your-repository-name
 pip install -r requirements.txt
